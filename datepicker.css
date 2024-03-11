@@ -1,0 +1,51 @@
+
+
+body {
+    width: 300px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calendar-header {
+    background-color: #3498db; 
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .calendar-header td {
+    cursor: pointer;
+  }
+  
+  .calendar-header td:first-child,
+  .calendar-header td:last-child {
+    width: 30px;
+  }
+  
+  .calendar-header tr:last-child {
+    background-color: #ecf0f1; 
+    font-weight: bold;
+  }
+  
+  
+  .calendar-cell {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+  }
+  
+  .pre-month-cell,
+  .post-month-cell {
+    color: #bdc3c7; 
+  }
+  
+  .curr-month-cell {
+    color: #2c3e50; 
+    cursor: pointer;
+    background-color: #ecf0f1; 
+    text-align: center;
+  }
+  
+  .curr-month-cell:hover {
+    background-color: #d5d8dc; 
+  }
+  
